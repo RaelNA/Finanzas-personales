@@ -1,0 +1,23 @@
+.transaction-income {
+    border-left: 4px solid var(--bs-success);
+}
+
+.transaction-expense {
+    border-left: 4px solid var(--bs-danger);
+}
+
+.amount-income {
+    color: var(--bs-success);
+}
+
+.amount-expense {
+    color: var(--bs-danger);
+}
+
+.table th {
+    cursor: pointer;
+}
+
+.table th:hover {
+    background-color: var(--bs-gray-700);
+}
